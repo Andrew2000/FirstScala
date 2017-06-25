@@ -1,0 +1,3 @@
+# FirstScala
+
+Scala Practice!
