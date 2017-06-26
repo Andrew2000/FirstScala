@@ -1,7 +1,12 @@
 package com.scalapractice
 
+case class Person(firstName: String, lastName: String, age: Int)
+
 object HelloWorld {
     def main(args: Array[String]) {
-        println("Hello World!" );
+        // create our object as a json string
+        val spock = new Person("Leonard", "Nimoy", 81)
+
+        println(spock)
     }
 }
